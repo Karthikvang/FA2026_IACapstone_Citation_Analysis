@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Secrets: never commit these ----
+# Blocks .env, .env.txt, .env.local, etc. Only the blank template is allowed through.
+.env*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# macOS
+.DS_Store
